@@ -1,0 +1,42 @@
+zuul:
+  routes:
+    api-admin-acitvity:
+      path: /admin-acitvity/**
+      serviceId: ADMIN-ACTIVITY-VIEW-SERVICE-FEIGN
+    api-admin-member:
+      path: /admin-member/**
+      serviceId: ADMIN-MEMBER-VIEW-SERVICE-FEIGN
+    api-admin-questionnaire:
+      path: /admin-questionnaire/**
+      serviceId: ADMIN-QUESTIONNAIRE-VIEW-SERVICE-FEIGN
+    api-admin-statices:
+      path: /admin-statices/**
+      serviceId: ADMIN-STATICES-VIEW-SERVICE-FEIGN
+    api-admin-system:
+      path: /admin-system/**
+      serviceId: ADMIN-SYSTEM-VIEW-SERVICE-FEIGN
+    api-admin-test:
+      path: /admin-test/**
+      serviceId: ADMIN-TEST-VIEW-SERVICE-FEIGN
+    api-admin-user:
+      path: /admin-user/**
+      serviceId: ADMIN-USER-VIEW-SERVICE-FEIGN
+    api-front-acitvity:
+      path: /front-acitvity/**
+      serviceId: FRONT-ACTIVITY-VIEW-SERVICE-FEIGN
+    api-front-member:
+      path: /front-member/**
+      serviceId: FRONT-MEMBER-VIEW-SERVICE-FEIGN
+    api-front-questionnaire:
+      path: /front-questionnaire/**
+      serviceId: FRONT-QUESTIONNAIRE-VIEW-SERVICE-FEIGN
+    api-front-system:
+      path: /front-system/**
+      serviceId: FRONT-SYSTEM-VIEW-SERVICE-FEIGN
+    api-front-test:
+      path: /front-test/**
+      serviceId: FRONT-TEST-VIEW-SERVICE-FEIGN
+    api-front-user:
+      path: /front-user/**
+      serviceId: FRONT-USER-VIEW-SERVICE-FEIGN
+   
